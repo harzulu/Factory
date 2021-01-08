@@ -21,9 +21,13 @@ namespace Factory.Migrations
                     b.Property<int>("EngineerId")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("DOB");
+
                     b.Property<int>("MachineId");
 
                     b.Property<string>("Name");
+
+                    b.Property<string>("Specialty");
 
                     b.HasKey("EngineerId");
 
@@ -53,7 +57,11 @@ namespace Factory.Migrations
                     b.Property<int>("MachineId")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<int>("Age");
+
                     b.Property<int>("EngineerId");
+
+                    b.Property<string>("MachineType");
 
                     b.Property<string>("Name");
 
