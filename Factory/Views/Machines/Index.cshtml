@@ -14,7 +14,15 @@
 
 @foreach (Machine machine in Model)
 {
-  <p>@Html.ActionLink($"{machine.Name}", "Details", new { id = machine.MachineId })</p> <br>
+  <p class="names">@Html.ActionLink($"{machine.Name}", "Details", new { id = machine.MachineId })</p> <br>
 }
 
-<p>@Html.ActionLink("Add new machine", "Create")</p>
+<nav class="navbar navbar-light">  
+  <div class="container-fluid" id="nav-background">  
+    <ul class="nav navbar-nav">
+      <button type="button" class="btn btn-dark">
+        <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span><li>@Html.ActionLink("Add new machine", "Create")</li>  
+      </button>
+    </ul>
+  </div>
+</nav>

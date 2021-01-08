@@ -1,0 +1,43 @@
+body {
+  background-color: #FF96B2;
+  text-align: center;
+}
+
+#topBar {
+  background-color: #B284EB;
+}
+
+#mainTitle {
+  font-family: 'Indie Flower', cursive;
+  font-size: 5em;
+  text-shadow: 2px 1px #D5FFA8;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.names {
+  font-size: 2em;
+}
+
+button {
+  color: #8CC4FF;
+}
+
+/*Links:*/
+a:link {
+  color: #306AE6;
+}
+
+a:visited {
+  color: #9764FF;
+}
+
+a:hover {
+  color: #F127F2;
+}
+
+a:active {
+  color: #45F584;
+}

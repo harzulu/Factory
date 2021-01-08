@@ -14,7 +14,15 @@
 
 @foreach (Engineer engineer in Model)
 {
-  <p>@Html.ActionLink($"{engineer.Name}", "Details", new { id = engineer.EngineerId })</p> <br>
+  <p class="names">@Html.ActionLink($"{engineer.Name}", "Details", new { id = engineer.EngineerId })</p> <br>
 }
 
-<p>@Html.ActionLink("Add new engineer", "Create")</p>
+<nav class="navbar navbar-light">  
+  <div class="container-fluid" id="nav-background">  
+    <ul class="nav navbar-nav">
+      <button type="button" class="btn btn-dark">
+        <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span><li>@Html.ActionLink("Add new engineer", "Create")</li>  
+      </button>
+    </ul>
+  </div>
+</nav>

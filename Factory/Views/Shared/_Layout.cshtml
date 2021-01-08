@@ -3,26 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Silltstringz Factory</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link rel="stylesheet" type="text/css" href="~/css/styles.css">
   </head>
   <body>
+    <div id="topBar">
       <nav class="navbar navbar-light navglyph">  
-      <div class="container-fluid" id = "nav-background">  
-        <ul class="nav navbar-nav">
-          <button type="button" class="btn btn-dark navglyph">
-            <span class="glyphicon glyphicon-home navglyph" aria-hidden="true"></span><li><a href="/">Home</a></li>  
-          </button>
-          <button type="button" class="btn btn-dark navglyph">
-            <span class="glyphicon glyphicon-wrench navglyph" aria-hidden="true"></span><li><a href="/Engineers/">Engineers</a></li>  
-          </button>
-          <button type="button" class="btn btn-dark navglyph">
-            <span class="glyphicon glyphicon-floppy-disk navglyph" aria-hidden="true"></span><li><a href="/Machines/">Machines</a></li>  
-          </button>   
-        </ul>  
-      </div>  
-    </nav>
-    <div class="container">
+        <div class="container-fluid" id = "nav-background">  
+          <ul class="nav navbar-nav">
+            <button type="button" class="btn btn-dark navglyph">
+              <span class="glyphicon glyphicon-home navglyph" aria-hidden="true"></span><li><a href="/">Home</a></li>  
+            </button>
+            <button type="button" class="btn btn-dark navglyph">
+              <span class="glyphicon glyphicon-wrench navglyph" aria-hidden="true"></span><li><a href="/Engineers/">Engineers</a></li>  
+            </button>
+            <button type="button" class="btn btn-dark navglyph">
+              <span class="glyphicon glyphicon-floppy-disk navglyph" aria-hidden="true"></span><li><a href="/Machines/">Machines</a></li>  
+            </button>   
+          </ul>  
+        </div>  
+      </nav>
+    </div>
+    <div class="container" id="main">
       @RenderBody()
     </div>
   </body>
