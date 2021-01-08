@@ -226,7 +226,7 @@ Once you have the file made, put in this code: <br>
 ```
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Port=3306;database=hotelcrm;uid=root;pwd=PASSWORD;"
+    "DefaultConnection": "Server=localhost;Port=3306;database=first_last;uid=root;pwd=PASSWORD;"
   }
 }
 ```
