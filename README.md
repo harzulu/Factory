@@ -40,15 +40,15 @@ A MVC web app to keep track of Engineers and Machines they are licesnsed to fix
   </tr>
   <tr>
     <td>Input</td>
-    <td></td>
+    <td>Click on "Engineers" or "Machines" link</td>
   </tr>
   <tr>
     <td>Output</td>
-    <td></td>
+    <td>Display page with list of names being links to all engineers or machines</td>
   </tr>
   <tr>
     <td>Completion</td>
-    <td>❌</td>
+    <td>✅</td>
   </tr>
 </table>
 
@@ -63,15 +63,15 @@ A MVC web app to keep track of Engineers and Machines they are licesnsed to fix
   </tr>
   <tr>
     <td>Input</td>
-    <td></td>
+    <td>Click link of specific engineer or machine</td>
   </tr>
   <tr>
     <td>Output</td>
-    <td></td>
+    <td>Display page with all given engineer or machine info and all connected engineers/machines</td>
   </tr>
   <tr>
     <td>Completion</td>
-    <td>❌</td>
+    <td>✅</td>
   </tr>
 </table>
 
@@ -86,15 +86,15 @@ A MVC web app to keep track of Engineers and Machines they are licesnsed to fix
   </tr>
   <tr>
     <td>Input</td>
-    <td></td>
+    <td>Click on "Add engineer" or "Add machine" buttons, input all information</td>
   </tr>
   <tr>
     <td>Output</td>
-    <td></td>
+    <td>Page showing all entered information of engineer/machine</td>
   </tr>
   <tr>
     <td>Completion</td>
-    <td>❌</td>
+    <td>✅</td>
   </tr>
 </table>
 
@@ -109,15 +109,15 @@ A MVC web app to keep track of Engineers and Machines they are licesnsed to fix
   </tr>
   <tr>
     <td>Input</td>
-    <td></td>
+    <td>Click on "Add engineer" or "Add machine" buttons, input all information</td>
   </tr>
   <tr>
     <td>Output</td>
-    <td></td>
+    <td>Page showing all entered information of engineer/machine</td>
   </tr>
   <tr>
     <td>Completion</td>
-    <td>❌</td>
+    <td>✅</td>
   </tr>
 </table>
 
@@ -132,15 +132,15 @@ A MVC web app to keep track of Engineers and Machines they are licesnsed to fix
   </tr>
   <tr>
     <td>Input</td>
-    <td></td>
+    <td>Click "add machine to engineer", "add engineer to machine", "delete" under connecting engineer, or "delete" under connecting machine</td>
   </tr>
   <tr>
     <td>Output</td>
-    <td></td>
+    <td>Created or Removed connection between engineer and machine</td>
   </tr>
   <tr>
     <td>Completion</td>
-    <td>❌</td>
+    <td>✅<</td>
   </tr>
 </table>
 
@@ -155,15 +155,15 @@ A MVC web app to keep track of Engineers and Machines they are licesnsed to fix
   </tr>
   <tr>
     <td>Input</td>
-    <td></td>
+    <td>View homepage</td>
   </tr>
   <tr>
     <td>Output</td>
-    <td></td>
+    <td>Page with list of all engineers and machines</td>
   </tr>
   <tr>
     <td>Completion</td>
-    <td>❌</td>
+    <td>✅<</td>
   </tr>
 </table>
 
