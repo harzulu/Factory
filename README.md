@@ -140,7 +140,7 @@ A MVC web app to keep track of Engineers and Machines they are licesnsed to fix
   </tr>
   <tr>
     <td>Completion</td>
-    <td>✅<</td>
+    <td>✅</td>
   </tr>
 </table>
 
@@ -163,7 +163,7 @@ A MVC web app to keep track of Engineers and Machines they are licesnsed to fix
   </tr>
   <tr>
     <td>Completion</td>
-    <td>✅<</td>
+    <td>✅</td>
   </tr>
 </table>
 
