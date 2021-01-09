@@ -6,6 +6,10 @@ body {
 #topBar {
   background-color: #B284EB;
 }
+#topButtons {
+margin-right: 25%;
+margin-left: 40%;
+}
 
 #mainTitle {
   font-family: 'Indie Flower', cursive;

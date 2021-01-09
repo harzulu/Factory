@@ -2,4 +2,20 @@
   Layout = "_Layout";
 }
 
+@using Factory.Models;
+@using Factory.Controllers;
+@model List<Factory.Models.Engineer>;
+
 <h1 id="mainTitle">Welcome to the Sillystringz Database!</h1>
+
+<h3>Engineers on staff:</h3>
+@foreach (Engineer engineer in Model)
+{
+  <a class="names" href="/Engineers/Details/@engineer.EngineerId">@(engineer.Name)</a> <br>
+}
+
+<h3>Machines on site:</h3>
+@foreach (Machine machine in ViewBag.Machines)
+{
+  <a class="names" href="/Machines/Details/@machine.MachineId">@(machine.Name)</a> <br>
+}
